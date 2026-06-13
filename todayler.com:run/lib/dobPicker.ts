@@ -1,0 +1,3 @@
+export const DOB_PICKER_HEIGHT = 160;
+export const DOB_ITEM_HEIGHT = 32;
+export const DOB_CENTER_PAD = (DOB_PICKER_HEIGHT - DOB_ITEM_HEIGHT) / 2;
