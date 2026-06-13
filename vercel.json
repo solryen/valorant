@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/explore",
+      "destination": "/explore/index.html"
+    },
+    {
+      "source": "/explore/(.*)",
+      "destination": "/explore/index.html"
+    },
+    {
+      "source": "/run",
+      "destination": "/run/index.html"
+    },
+    {
+      "source": "/run/(.*)",
+      "destination": "/run/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
