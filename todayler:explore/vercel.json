@@ -1,0 +1,29 @@
+{
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "crons": [
+    {
+      "path": "/api/trigger-article-generation?source=cron",
+      "schedule": "0 16 * * 0"
+    },
+    {
+      "path": "/api/trigger-article-generation?source=cron",
+      "schedule": "0 17 * * 0"
+    },
+    {
+      "path": "/api/publish-queued-articles?source=cron",
+      "schedule": "0 16 * * *"
+    },
+    {
+      "path": "/api/publish-queued-articles?source=cron",
+      "schedule": "0 17 * * *"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
