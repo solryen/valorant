@@ -1,0 +1,136 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "DM Sans",
+      "role": "body"
+    },
+    {
+      "family": "Fraunces",
+      "role": "heading"
+    }
+  ],
+  "colors": {
+    "primary": "#C97249",
+    "secondary": "#F6EFE7",
+    "accent": "#C97249",
+    "background": "#F6EFE7",
+    "textPrimary": "#33251F",
+    "link": "#33251F"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "DM Sans",
+      "heading": "Fraunces"
+    },
+    "fontStacks": {
+      "heading": [
+        "Fraunces",
+        "Georgia",
+        "serif"
+      ],
+      "body": [
+        "DM Sans",
+        "Trebuchet MS",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "DM Sans",
+        "Trebuchet MS",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "80px",
+      "h2": "39.2px",
+      "body": "16.8px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "0px"
+  },
+  "components": {
+    "buttonPrimary": {
+      "background": "#C97249",
+      "textColor": "#FFFAF6",
+      "borderRadius": "999px",
+      "borderRadiusCorners": {
+        "topLeft": "999px",
+        "topRight": "999px",
+        "bottomRight": "999px",
+        "bottomLeft": "999px"
+      },
+      "shadow": "rgba(201, 114, 73, 0.24) 0px 14px 30px 0px"
+    },
+    "buttonSecondary": {
+      "background": "#FBF8F5",
+      "textColor": "#33251F",
+      "borderColor": "#E5D4C7",
+      "borderRadius": "999px",
+      "borderRadiusCorners": {
+        "topLeft": "999px",
+        "topRight": "999px",
+        "bottomRight": "999px",
+        "bottomLeft": "999px"
+      },
+      "shadow": "rgba(255, 255, 255, 0.5) 0px 1px 0px 0px inset"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.jpg",
+    "favicon": "File saved at: attached_assets/favicon.jpg",
+    "ogImage": "https://example.com/og-image.jpg",
+    "logoHref": "File saved at: attached_assets/logoHref.html",
+    "logoAlt": "Todayler"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and matches the brand name 'Todayler'.",
+    "confidence": 0.9,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "Start your free trial",
+      "reasoning": "Button #0 'Start your free trial' uses a vibrant brand color (#C97249) and has strong CTA text, making it the primary call-to-action."
+    },
+    "secondary": {
+      "index": 2,
+      "text": "See how it works",
+      "reasoning": "Button #2 'See how it works' has a different background color (#FBF8F5) and serves as a secondary action with informative text."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "playful",
+    "energy": "medium",
+    "targetAudience": "parents of young children"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and matches the brand name 'Todayler'.",
+        "confidence": 0.9
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}

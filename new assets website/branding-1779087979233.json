@@ -1,0 +1,144 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "DM Sans",
+      "role": "body"
+    },
+    {
+      "family": "Fraunces",
+      "role": "heading"
+    },
+    {
+      "family": "Cormorant Garamond",
+      "role": "display"
+    }
+  ],
+  "colors": {
+    "primary": "#718D53",
+    "secondary": "#7A6E60",
+    "accent": "#718D53",
+    "background": "#FAF8F5",
+    "textPrimary": "#4A3F35",
+    "link": "#4A3F35"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "DM Sans",
+      "heading": "Fraunces"
+    },
+    "fontStacks": {
+      "heading": [
+        "Fraunces",
+        "Cormorant Garamond",
+        "Georgia",
+        "serif"
+      ],
+      "body": [
+        "DM Sans",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "DM Sans",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "62px",
+      "h2": "52px",
+      "body": "18px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 12,
+    "borderRadius": "18px"
+  },
+  "components": {
+    "buttonPrimary": {
+      "background": "#718D53",
+      "textColor": "#FFFFFF",
+      "borderRadius": "100px",
+      "borderRadiusCorners": {
+        "topLeft": "100px",
+        "topRight": "100px",
+        "bottomRight": "100px",
+        "bottomLeft": "100px"
+      },
+      "shadow": "rgba(113, 141, 83, 0.28) 0px 6px 20px 0px"
+    },
+    "buttonSecondary": {
+      "background": "#FAF8F5",
+      "textColor": "#4A3F35",
+      "borderRadius": "0px",
+      "borderRadiusCorners": {
+        "topLeft": "0px",
+        "topRight": "0px",
+        "bottomRight": "0px",
+        "bottomLeft": "0px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.webp",
+    "favicon": "https://meetwillo.app/favicon.ico",
+    "ogImage": "File saved at: attached_assets/ogImage.jpg",
+    "logoHref": "File saved at: attached_assets/logoHref.html",
+    "logoAlt": "Willo"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and matches the brand name 'Willo'.",
+    "confidence": 0.9,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 2,
+      "text": "Download on the App Store",
+      "reasoning": "Button #2 'Download on the App Store' is a primary CTA due to its vibrant green color (#718D53) and action-oriented text, making it a strong candidate for primary action."
+    },
+    "secondary": {
+      "index": 4,
+      "text": "See all 35 phases →",
+      "reasoning": "Button #4 'See all 35 phases →' is selected as secondary due to its distinct background color (#FAF8F5) and informative nature, complementing the primary CTA."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "playful",
+    "energy": "medium",
+    "targetAudience": "new moms"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and matches the brand name 'Willo'.",
+        "confidence": 0.9
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}
